@@ -9,10 +9,7 @@ var isTesting: Bool {
   return NSString(string: value).boolValue
 }
 
-var package = Package(
-  name: "Regex",
-  swiftLanguageVersions: [4]
-)
+var package = Package(name: "Regex")
 
 if isTesting {
   package.dependencies.append(contentsOf: [
