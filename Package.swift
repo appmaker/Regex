@@ -1,4 +1,4 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.2
 
 import Foundation
 import PackageDescription
@@ -11,7 +11,7 @@ var isTesting: Bool {
 
 var package = Package(
   name: "Regex",
-  swiftLanguageVersions: [3, 4]
+  swiftLanguageVersions: [4]
 )
 
 if isTesting {
